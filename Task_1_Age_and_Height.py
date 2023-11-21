@@ -13,4 +13,4 @@ surname = surname.title()
 age = int((dt - db)/days_in_year)
 delta_H = height - 178 
 
-print("Пользователь", name, surname, "," date_of_birth, "г.р.", "Вы выше среднего мужчинын на ", delta_H, "см")
+print(f"Пользователь {name} {surname}, {age} лет. Ваш рост выше среднего на {delta_H} см.")
