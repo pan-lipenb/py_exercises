@@ -1,0 +1,12 @@
+a = input('Input a string: ')
+sum = 0
+count = 0
+for i in range(len(a)):
+    x = a[i]
+    try:
+        x = int(x)
+        sum += x
+        count += 1
+    except:
+        pass
+print(sum/count)
